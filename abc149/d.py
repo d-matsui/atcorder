@@ -16,14 +16,15 @@ for i in range(len(t_list)):
     groups[mod].append(t_list[i])
 # print(groups)
 
-def score(my_hand, hand):
+def calc_score(my_hand, hand):
     if my_hand == 'r' and hand == 's':
         return r
     elif my_hand == 's' and hand == 'p':
         return s
     elif my_hand == 'p' and hand == 'r':
         return p
-    return 0
+    else:
+        return 0
 
 def get_win_hand(hand):
     if hand == 'r':
@@ -33,38 +34,40 @@ def get_win_hand(hand):
     else:
         return 's'
 
+def get_best_hand(j, hands, my_hand_prev):
+    hand = hands[j]
+    win_hand = get_win_hand(hand)
+    # decide which hand to take
+    candidates = ['r', 's', 'p']
+    # when we can win
+    if j == 0 or j != 0 and win_hand != my_hand_prev:
+        candidates = [win_hand]
+    else:
+        # can't take a hand twice in a row
+        candidates.remove(my_hand_prev)
+        # just pop when it's last hand in a group
+        if j == len(hands) - 1:
+            candidates.pop()
+        else:
+            hand_next = hands[j+1]
+            win_hand_next = get_win_hand(hand_next)
+            # just pop when win_hand_next has already removed
+            if win_hand_next == my_hand_prev:
+                candidates.pop()
+            else:
+                candidates.remove(win_hand_next)
+    return candidates[0]
+
 result = 0
 # for each group
 for i in range(k):
     hands = groups[i]
+    my_hand_prev = ''
     # for each hand in a group
     for j in range(len(hands)):
-        hand = hands[j]
-        win_hand = get_win_hand(hand)
-        if j == 0:
-            my_hand = win_hand
-            result += score(my_hand, hand)
-            my_hand_prev = my_hand
-        else:
-            candidates = ['r', 's', 'p']
-            candidates.remove(my_hand_prev)
-            if win_hand == my_hand_prev:
-                if j == len(hands) - 1:
-                    candidates.pop()
-                    my_hand = candidates[0]
-                else:
-                    hand_next = hands[j+1]
-                    win_hand_next = get_win_hand(hand_next)
-                    if win_hand_next == my_hand_prev:
-                        candidates.pop()
-                    else:
-                        candidates.remove(win_hand_next)
-                my_hand = candidates[0]
-                result += score(my_hand, hand)
-                my_hand_prev = my_hand
-            else:
-                my_hand = win_hand
-                result += score(my_hand, hand)
-                my_hand_prev = my_hand
+        my_hand = get_best_hand(j, hands, my_hand_prev)
+        my_hand_prev = my_hand
+        # calculate score according to the hand decided
+        result += calc_score(my_hand, hands[j])
 
 print(result)
