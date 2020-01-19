@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+from graph_tools import Graph
+from collections import deque
+import pprint
 
 H, W = map(int, input().split())
 S = []
@@ -8,24 +11,23 @@ for i in range(H):
 # print(H, W)
 # print(S)
 
-# 迷路 S における (x1, y1) から (x2, y2) へ移動するのに要する最小 step 数
-def min_steps(S, x1, y1, x2, y2):
-    if x1 == x2 and y1 == y2:
-        steps = 0
-    else:
-        steps = abs(x1 - x2) + abs(y1 - y2)
-    return steps
+connections = []
 
-max_steps = 0
-for x1 in range(H):
-    for y1 in range(W):
-        if (S[x1][y1] != '#'):
-            for x2 in range(H):
-                for y2 in range(W):
-                    if (S[x2][y2] != '#'):
-                        steps = min_steps(S, x1, y1, x2, y2)
-                        # print(steps)
-                        if (steps > max_steps):
-                            max_steps = min_steps(S, x1, y1, x2, y2)
+g = Graph(connections)
+dist = [-1 for i in range(H * W)]
+dq = deque()
 
-print(max_steps)
+# init
+dq.append(0)
+dist[0] = 0
+
+while dq != []:
+    v = dq.pop()
+    for v_adj in g.adjacency_list():
+        # undiscovered vertex
+        if (dist[v_adj] == -1):
+            dist[v_adj] = dist[v] + 1
+            dq.append(v_adj)
+
+pprint(dq)
+pprint(dist)

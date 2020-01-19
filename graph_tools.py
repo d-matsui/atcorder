@@ -55,5 +55,10 @@ class Graph(object):
                     return new_path
         return None
 
+    # def adjacency_list():
+    #     if self.directed:
+    #         return
+    #     return
+
     def __str__(self):
         return '{}({})'.format(self.__class__.__name__, dict(self._graph))
