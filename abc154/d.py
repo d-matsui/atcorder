@@ -4,9 +4,18 @@ N, K = map(int, input().split())
 p = list(map(int, input().split()))
 
 def max_sum_section(arr, k):
-    res = 0
-    # TODO: i から i+k までの区間和が最大である区間を求めよ
-    return res
+    sec = []
+    for i in range(k):
+        print(i)
+        sec.append(arr[i])
+    max_sec = sec
+    # TODO: i から i+k-1 までの区間和が最大である区間を求めよ
+    for i in range(k, len(arr)):
+        sec.pop(0)
+        sec.append(arr[i])
+        if sum(sec) > sum(max_sec):
+            max_sec = sec
+    return max_sec
 
 def e_dice(n):
     res = 0
