@@ -8,6 +8,9 @@ Q = int(input())
 
 is_reverse = False
 
+d = deque()
+d.append(S)
+# print(d)
 
 for i in range(Q):
     query = list(input().split())
@@ -15,25 +18,22 @@ for i in range(Q):
     if int(query[0]) == 1:
         # print("reverse")
         # Sを反転
-        # S_copy = S_copy[::-1]
         is_reverse = not is_reverse
     else:
         if int(query[1]) == 1:
             # Sの先頭にC_iを追加
-            # print("prepend C_i")
             if is_reverse:
-                S_copy = S_copy + query[2]
+                d.append(query[2])
             else:
-                S_copy = query[2] + S_copy
+                d.appendleft(query[2])
         else:
             # Sの末尾にC_iを追加
-            # print("append C_i")
             if is_reverse:
-                S_copy = query[2] + S_copy
+                d.appendleft(query[2])
             else:
-                S_copy = S_copy + query[2]
+                d.append(query[2])
 
 if is_reverse:
-    print(S_copy[::-1])
+    print("".join(d)[::-1])
 else:
-    print(S_copy)
+    print("".join(d))
