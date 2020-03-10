@@ -7,22 +7,20 @@ m = list(map(int, input().split()))
 # print(n, A)
 # print(q, m)
 
-S = []
+flags = [False] * q
 for i in range(2 ** n):
+    if all(flags):
+        break
     s = []
     for j in range(n):
         if i & (1 << j):
             s.append(A[j])
-    S.append(s)
-# print(S)
+    for j in range(q):
+        if m[j] == sum(s):
+            flags[j] = True
 
 for i in range(q):
-    flag = False
-    for j in range(len(S)):
-        if m[i] == sum(S[j]):
-            flag = True
-            break
-    if flag:
+    if flags[i]:
         print("yes")
     else:
         print("no")
