@@ -13,7 +13,11 @@ for i in range(R):
 
 sums = []
 for bits in range(2 ** R):
-    senbeis_rev = copy.deepcopy(senbeis)
+    # senbeis_rev = copy.deepcopy(senbeis)
+    senbeis_rev = [[0] * C for i in range(R)]
+    for i in range(R):
+        for j in range(C):
+            senbeis_rev[i][j] = senbeis[i][j]
     # print(bin(bits))
     # 各行の裏返し
     for row in range(R):
