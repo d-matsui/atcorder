@@ -27,31 +27,34 @@ else:
         cost = 0
         # K色の色を見えるようにしたときのcostを求める
         if len(buildings) == K:
-            print(f"\nbits: {bin(bits)}")
-            print(f"buildings: {buildings}")
+            # print(f"\nbits: {bin(bits)}")
+            # print(f"buildings: {buildings}")
             max_height = l_height_copy[0]
             for i in range(1, N):
-                if l_height_copy[i] > max_height:
-                    print(f"updated max_height: {max_height}")
-                    max_height = l_height_copy[i]
                 if i in buildings:
-                    print(f"i: {i} is in buildings")
-                    print(f"buildings: {buildings}")
-                    print(f"l_height_copy: {l_height_copy}")
-                    print(f"max_height: {max_height}")
-                    print(f"l_height_copy[i]: {l_height_copy[i]}")
+                    # print(f"i: {i} is in buildings")
+                    # print(f"buildings: {buildings}")
+                    # print(f"l_height_copy: {l_height_copy}")
+                    # print(f"max_height: {max_height}")
+                    # print(f"l_height_copy[i]: {l_height_copy[i]}")
                     # 建物iの高さを増やす必要があるとき
                     if max_height >= l_height_copy[i]:
-                        print("max_height >= l_height[i]")
-                        print(f"diff: {(max_height + 1) - l_height_copy[i]}")
+                        # print("max_height >= l_height[i]")
+                        # print(f"diff: {(max_height + 1) - l_height_copy[i]}")
                         cost += (max_height + 1) - l_height_copy[i]
                         # print(f"cost: {cost}")
                         l_height_copy[i] = max_height + 1
                         max_height = l_height_copy[i]
-                        print(f"updated max_height: {max_height}")
+                        # print(f"updated max_height: {max_height}")
+                    else:
+                        max_height = l_height_copy[i]
+                else:
+                    if l_height_copy[i] > max_height:
+                        # print(f"updated max_height: {max_height}")
+                        max_height = l_height_copy[i]
             costs.append(cost)
 
-print(costs)
+# print(costs)
 print(min(costs))
 
 # ----- 方針 -----
