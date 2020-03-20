@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 
+
 def is_ok(array, index, value):
     if array[index] >= value:
         return True
     return False
+
 
 def bs(array, value, is_ok):
     left = -1
@@ -15,6 +17,7 @@ def bs(array, value, is_ok):
         else:
             left = mid
     return right
+
 
 array = [1, 3, 4, 4, 4, 5, 7]
 values = [1, 2, 3, 4, 5, 6, 7, 8]
