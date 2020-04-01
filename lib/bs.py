@@ -6,6 +6,7 @@ q = int(input())
 T = list(map(int, input().split()))
 # print(n, S, q, T)
 
+
 def binary_search(arr, x):
     left = 0
     right = len(arr) - 1
@@ -18,6 +19,7 @@ def binary_search(arr, x):
         else:
             return mid
     return -1
+
 
 S.sort()
 count = 0
