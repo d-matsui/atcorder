@@ -16,7 +16,6 @@
 *** TODO https://atcoder.jp/contests/joi2008yo/tasks/joi2008yo_d
 
 ** bit全探索
-
 *** TODO https://atcoder.jp/contests/abc128/tasks/abc128_c
 
 *** TODO https://atcoder.jp/contests/joi2008yo/tasks/joi2008yo_e
@@ -60,3 +59,4 @@
 
 *** TODO https://atcoder.jp/contests/joi2011yo/tasks/joi2011yo_d
 
+*** TODO https://atcoder.jp/contests/joi2012yo/tasks/joi2012yo_d
