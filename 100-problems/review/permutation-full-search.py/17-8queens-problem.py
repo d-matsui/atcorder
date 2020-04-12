@@ -61,7 +61,7 @@ def is_valid(queens):
         v, h, d_r, d_l = calc_direction(queen)
         v_c, h_c = count(v, queens), count(h, queens)
         d_r_c, d_l_c = count(d_r, queens), count(d_l, queens)
-        if not (v_c == 1 and h_c == 1  and d_r_c == 1 and d_l_c == 1):
+        if not (v_c == 1 and h_c == 1 and d_r_c == 1 and d_l_c == 1):
             return False
     return True
 
