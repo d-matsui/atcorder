@@ -50,6 +50,8 @@
 
 *** TODO https://atcoder.jp/contests/joi2008ho/tasks/joi2008ho_c
 
+- NG: <2020-04-13 Mon>
+
 ** 深さ優先探索
 *** TODO http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ALDS1_11_B
 
