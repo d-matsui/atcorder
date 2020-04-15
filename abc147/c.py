@@ -14,3 +14,4 @@ l = [[] for i in range(N)]
 for num in range(2 ** N):
     bits = bin(num)
     # print(bits)
+

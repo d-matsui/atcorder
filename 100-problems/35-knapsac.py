@@ -26,3 +26,4 @@ for i in range(N):
 
 print(dp[N][W])
 print(dp)
+
