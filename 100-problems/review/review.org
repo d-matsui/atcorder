@@ -1,5 +1,5 @@
 * 初見で解けなかった or 1時間以上かかった問題
-** 工夫して通り数を減らす全列挙
+** TODO 工夫して通り数を減らす全列挙
 *** TODO https://atcoder.jp/contests/abc095/tasks/arc096_a
 
 - NG <2020-04-05 Sun>
@@ -18,7 +18,8 @@
 
 - NG <2020-04-11 Sat>
 
-** bit全探索
+** DONE bit全探索
+   CLOSED: [2020-04-11 Sat 20:31]
 *** DONE https://atcoder.jp/contests/abc128/tasks/abc128_c
     CLOSED: [2020-04-11 Sat 17:22]
 
@@ -28,12 +29,12 @@
 *** DONE https://atcoder.jp/contests/s8pc-4/tasks/s8pc_4_b
     CLOSED: [2020-04-11 Sat 20:31]
 
-** 順列全探索
+** TODO 順列全探索
 *** TODO http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ALDS1_13_A&lang=ja
 
 - OK (but it takes 2 hours) <2020-04-11 Sat>
 
-** 二分探索
+** TODO 二分探索
 *** DONE https://atcoder.jp/contests/joi2009ho/tasks/joi2009ho_b
     CLOSED: [2020-04-12 Sun 15:06]
 
@@ -52,7 +53,7 @@
 
 - NG: <2020-04-13 Mon>
 
-** 深さ優先探索
+** TODO 深さ優先探索
 *** TODO http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ALDS1_11_B
 
 - NG <2020-04-14 Tue>
@@ -65,10 +66,14 @@
 
 - NG <2020-04-15 Wed>
 
-** 幅優先探索
+** TODO 幅優先探索
 *** TODO https://atcoder.jp/contests/joi2011yo/tasks/joi2011yo_e
 
+- NG <2020-04-16 Thu>
+
 *** TODO https://atcoder.jp/contests/joi2012yo/tasks/joi2012yo_e
+
+- NG <2020-04-16 Thu>
 
 *** TODO http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1166&lang=jp
 
