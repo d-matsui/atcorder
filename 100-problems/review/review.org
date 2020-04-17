@@ -75,7 +75,8 @@
 
 - NG <2020-04-16 Thu>
 
-*** TODO http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1166&lang=jp
+*** DONE http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1166&lang=jp
+    CLOSED: [2020-04-18 Sat 01:51]
 
 ** 動的計画法 (ナップザック DP)
 *** TODO http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=DPL_1_C&lang=ja
