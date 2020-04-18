@@ -81,6 +81,8 @@
 ** 動的計画法 (ナップザック DP)
 *** TODO http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=DPL_1_C&lang=ja
 
+- NG <2020-04-18 Sat>
+
 *** TODO http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=DPL_1_A&lang=ja
 
 *** TODO http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ALDS1_10_C&lang=ja
