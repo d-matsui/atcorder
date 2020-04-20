@@ -30,10 +30,11 @@ while True:
 
     # print(code_book, input_signal)
 
-    # dp[i + 1][j]: i番目の入力信号を符号化した結果がjとなる場合の、(i番目までの信号の)差の二乗和の最小値
-    # y_i = j + C[k]
+    # dp[i + 1][j]: i番目の入力信号を復号した結果がjとなる場合の、(i番目までの信号の)差の二乗和の最小値
+    # i番目の入力信号を復号した結果をy_iとすると、y_iは以下で与えられる
+    # y_i = y_{i-1} + C[k_i]
     # sq_diff = (x[i] - y_i) ** 2
-    # dp[i + 1][y_i] = min(dp[i + 1][y_i], dp[i][j] + sq_diff)
+    # dp[i + 1][j] = min(dp[i + 1][j], dp[i][j - C[k_i]] + sq_diff)
 
     inf = float("inf")
     dp = [[inf for j in range(255 + 1)] for i in range(n_samples + 1)]
@@ -41,10 +42,8 @@ while True:
 
     for i in range(n_samples):
         for j in range(255 + 1):
-            for k in range(m_codes):
-                y_i = j + code_book[k]
-                y_i = round_0_255(y_i)
-                sq_diff = (input_signal[i] - y_i) ** 2
-                dp[i + 1][y_i] = min(dp[i + 1][y_i], dp[i][j] + sq_diff)
-
+            for c_k in code_book:
+                sq_diff = (input_signal[i] - j) ** 2
+                dp[i + 1][j] = min(dp[i + 1][j], dp[i][round_0_255(j - c_k)] + sq_diff)
+    # print(dp[n_samples])
     print(min(dp[n_samples]))
