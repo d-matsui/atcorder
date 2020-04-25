@@ -38,12 +38,12 @@ for i in range(MAX):
     if is_prime[i] and is_prime[(i + 1) // 2]:
         a[i] = 1
 
-com_sum = [0 for _ in range(MAX + 1)]
+cum_sum = [0 for _ in range(MAX + 1)]
 for i in range(MAX):
-    com_sum[i + 1] = com_sum[i] + a[i]
+    cum_sum[i + 1] = cum_sum[i] + a[i]
 
 for left, right in queries:
-    # print(f"s[left] = {com_sum[left]}")
-    # print(f"s[right] = {com_sum[right]}")
-    x = com_sum[right + 1] - com_sum[left]
+    # print(f"s[left] = {cum_sum[left]}")
+    # print(f"s[right] = {cum_sum[right]}")
+    x = cum_sum[right + 1] - cum_sum[left]
     print(x)

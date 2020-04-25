@@ -11,13 +11,13 @@ inf = float("inf")
 N = int(input())
 A = list(map(int, input().split()))
 
-# comulative sum
+# cumulative sum
 # s_{i+1} = s_i + a_i, s_0 = 0
 # 区間 [left, right) の総和 = s[right] - s[left]
-com_sum = [0 for _ in range(N + 1)]
+cum_sum = [0 for _ in range(N + 1)]
 for i in range(N):
-    com_sum[i + 1] = com_sum[i] + A[i]
-# print(com_sum)
+    cum_sum[i + 1] = cum_sum[i] + A[i]
+# print(cum_sum)
 
 res = []
 for k in range(1, N + 1):
@@ -25,7 +25,7 @@ for k in range(1, N + 1):
     for left in range(N):
         right = left + k
         if right <= N:
-            max_sum = max(max_sum, com_sum[right] - com_sum[left])
+            max_sum = max(max_sum, cum_sum[right] - cum_sum[left])
     res.append(max_sum)
 
 for r in res:
