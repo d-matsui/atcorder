@@ -107,3 +107,6 @@
 *** TODO https://atcoder.jp/contests/joi2015ho/tasks/joi2015ho_b
 
 *** TODO http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1611&lang=jp
+
+** TODO 累積和
+*** TODO https://atcoder.jp/contests/nikkei2019-final/tasks/nikkei2019_final_a
