@@ -113,3 +113,4 @@
 
 *** TODO https://atcoder.jp/contests/joi2011ho/tasks/joi2011ho1
 *** TODO https://atcoder.jp/contests/abc106/tasks/abc106_d
+*** TODO https://atcoder.jp/contests/gigacode-2019/tasks/gigacode_2019_d
