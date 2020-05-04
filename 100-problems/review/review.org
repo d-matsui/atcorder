@@ -120,3 +120,7 @@
 ** TODO 逆元を使う問題
 
 *** TODO https://atcoder.jp/contests/abc034/tasks/abc034_c
+** TODO ダイクストラ法
+
+*** TODO http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=GRL_1_A&lang=ja
+*** TODO https://atcoder.jp/contests/joi2008yo/tasks/joi2008yo_f
