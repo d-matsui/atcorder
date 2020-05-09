@@ -132,3 +132,5 @@
 ** TODO Minimum Spanning Tree
 
 *** TODO https://atcoder.jp/contests/joisc2010/tasks/joisc2010_finals
+** TODO Prime Number
+*** TODO http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=NTL_1_A&lang=ja
