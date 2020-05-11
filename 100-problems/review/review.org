@@ -134,3 +134,5 @@
 *** TODO https://atcoder.jp/contests/joisc2010/tasks/joisc2010_finals
 ** TODO Prime Number
 *** TODO http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=NTL_1_A&lang=ja
+** TODO Disjoint Set
+*** TODO https://atcoder.jp/contests/abc075/tasks/abc075_c?lang=ja
