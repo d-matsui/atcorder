@@ -136,6 +136,9 @@
 
 *** TODO https://atcoder.jp/contests/abc084/tasks/abc084_d
 
+** TODO Power calculation
+*** TODO http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=NTL_1_B&lang=ja
+
 ** TODO Disjoint Set
 
 *** TODO https://atcoder.jp/contests/abc075/tasks/abc075_c?lang=ja
