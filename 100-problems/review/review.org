@@ -142,3 +142,5 @@
 ** TODO Disjoint Set
 
 *** TODO https://atcoder.jp/contests/abc075/tasks/abc075_c?lang=ja
+
+*** TODO https://atcoder.jp/contests/s8pc-1/tasks/s8pc_1_e
