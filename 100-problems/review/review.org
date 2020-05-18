@@ -108,18 +108,6 @@
 
 *** TODO http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1611&lang=jp
 
-** TODO 累積和
-*** TODO https://atcoder.jp/contests/nikkei2019-final/tasks/nikkei2019_final_a
-
-*** TODO https://atcoder.jp/contests/joi2011ho/tasks/joi2011ho1
-
-*** TODO https://atcoder.jp/contests/abc106/tasks/abc106_d
-
-*** TODO https://atcoder.jp/contests/gigacode-2019/tasks/gigacode_2019_d
-
-** TODO 逆元を使う問題
-*** TODO https://atcoder.jp/contests/abc034/tasks/abc034_c
-
 ** TODO Dijkstra Algorithm
 *** TODO http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=GRL_1_A&lang=ja
 
@@ -139,8 +127,21 @@
 ** TODO Power calculation
 *** TODO http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=NTL_1_B&lang=ja
 
-** TODO Disjoint Set
+** TODO 逆元を使う問題
+*** TODO https://atcoder.jp/contests/abc034/tasks/abc034_c
 
+** TODO 累積和
+*** TODO https://atcoder.jp/contests/nikkei2019-final/tasks/nikkei2019_final_a
+
+*** TODO https://atcoder.jp/contests/joi2011ho/tasks/joi2011ho1
+
+*** TODO https://atcoder.jp/contests/abc106/tasks/abc106_d
+
+*** TODO https://atcoder.jp/contests/gigacode-2019/tasks/gigacode_2019_d
+
+** TODO Disjoint Set
 *** TODO https://atcoder.jp/contests/abc075/tasks/abc075_c?lang=ja
 
 *** TODO https://atcoder.jp/contests/s8pc-1/tasks/s8pc_1_e
+** TODO その他のテクニック
+*** TODO https://atcoder.jp/contests/joi2008ho/tasks/joi2008ho_a
