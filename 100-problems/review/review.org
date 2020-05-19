@@ -38,7 +38,8 @@
 *** DONE https://atcoder.jp/contests/joi2009ho/tasks/joi2009ho_b
     CLOSED: [2020-04-12 Sun 15:06]
 
-*** TODO https://atcoder.jp/contests/abc077/tasks/arc084_a
+*** DONE https://atcoder.jp/contests/abc077/tasks/arc084_a
+    CLOSED: [2020-05-19 Tue 22:22]
 
 - NG: <2020-04-12 Sun>
 
@@ -54,7 +55,8 @@
 - NG: <2020-04-13 Mon>
 
 ** TODO 深さ優先探索
-*** TODO http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ALDS1_11_B
+*** DONE http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ALDS1_11_B
+    CLOSED: [2020-05-19 Tue 22:51]
 
 - NG <2020-04-14 Tue>
 
