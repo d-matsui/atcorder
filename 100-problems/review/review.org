@@ -46,6 +46,9 @@
 *** TODO https://atcoder.jp/contests/abc023/tasks/abc023_d
 
 - NG: <2020-04-12 Sun>
+- NG: <2020-05-25 Mon>
+  - 解法が思いつかない
+  - 二分探索をバグらせた
 
 *** DONE https://atcoder.jp/contests/arc054/tasks/arc054_b
     CLOSED: [2020-04-12 Sun 19:03]
