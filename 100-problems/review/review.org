@@ -113,6 +113,10 @@
 
 *** TODO http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1611&lang=jp
 
+** TODO 動的計画法 (bit DP)
+
+*** TODO http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=DPL_2_A&lang=ja
+
 ** TODO Dijkstra Algorithm
 *** TODO http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=GRL_1_A&lang=ja
 
