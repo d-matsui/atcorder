@@ -90,7 +90,11 @@
 
 *** TODO http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=DPL_1_A&lang=ja
 
+- NG <2020-06-04 Thu>
+
 *** TODO http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ALDS1_10_C&lang=ja
+
+- NG <2020-06-04 Thu>
 
 *** TODO https://atcoder.jp/contests/joi2011yo/tasks/joi2011yo_d
 
