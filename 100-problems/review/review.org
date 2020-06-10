@@ -117,7 +117,11 @@
 
 *** TODO http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1167&lang=jp
 
+- NG: <2020-06-10 Wed>
+
 *** TODO http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2199&lang=jp
+
+- NG: <2020-06-11 Thu>
 
 ** TODO 動的計画法 (区間 DP)
 *** TODO http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ALDS1_10_B&lang=ja
