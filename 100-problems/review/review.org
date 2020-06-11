@@ -88,7 +88,10 @@
 
 - NG <2020-04-18 Sat>
 
-*** TODO http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=DPL_1_A&lang=ja
+- NG <2020-06-12 Fri>
+
+*** DONE http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=DPL_1_A&lang=ja
+    CLOSED: [2020-06-12 Fri 08:53]
 
 - NG <2020-06-04 Thu>
 
