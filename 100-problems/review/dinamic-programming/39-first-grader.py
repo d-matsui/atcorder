@@ -33,6 +33,7 @@ numbers = list(map(int, input().split()))
 
 # print(dp[n-1][numbers[-1]])
 
+# ---
 # dp[i][j] := 左からi個の穴それぞれに+, -を入れた式の計算結果がjである式の数
 # a_0 + a_1 + ... + a_k
 # 0 <= i <= n - 2, 0 <= j <= 20
