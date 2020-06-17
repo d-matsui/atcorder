@@ -111,11 +111,15 @@
 
 - NG <2020-06-06 Sat>
 
-*** TODO https://atcoder.jp/contests/joi2013yo/tasks/joi2013yo_d
+- NG <2020-06-16 Tue>
+
+*** DONE https://atcoder.jp/contests/joi2013yo/tasks/joi2013yo_d
+    CLOSED: [2020-06-17 Wed 20:48]
 
 - NG <2020-06-07 Sun>
 
-*** TODO https://atcoder.jp/contests/joi2015yo/tasks/joi2015yo_d
+*** DONE https://atcoder.jp/contests/joi2015yo/tasks/joi2015yo_d
+    CLOSED: [2020-06-17 Wed 21:16]
 
 - NG <2020-06-08 Tue>
 
