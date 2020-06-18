@@ -130,6 +130,8 @@
 
 - NG <2020-06-10 Wed>
 
+- NG <2020-06-18 Thu>
+
 *** TODO http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2199&lang=jp
 
 - NG <2020-06-11 Thu>
