@@ -137,9 +137,13 @@
 
 - NG <2020-06-18 Thu>
 
+- NG <2020-06-21 Sun>
+
 *** TODO http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2199&lang=jp
 
 - NG <2020-06-11 Thu>
+
+- NG <2020-06-21 Sun>
 
 ** TODO 動的計画法 (区間 DP)
 *** TODO http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ALDS1_10_B&lang=ja
