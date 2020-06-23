@@ -73,6 +73,8 @@
 
 - NG <2020-04-15 Wed>
 
+- NG <2020-06-23 Tue>
+
 ** TODO 幅優先探索
 *** TODO https://atcoder.jp/contests/joi2011yo/tasks/joi2011yo_e
 
