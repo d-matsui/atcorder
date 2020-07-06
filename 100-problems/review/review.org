@@ -58,13 +58,16 @@
 
 - NG <2020-04-13 Mon>
 
+- NG <2020-07-01 Wed>
+
 ** TODO 深さ優先探索
 *** DONE http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ALDS1_11_B
     CLOSED: [2020-05-19 Tue 22:51]
 
 - NG <2020-04-14 Tue>
 
-*** TODO https://atcoder.jp/contests/abc138/tasks/abc138_d
+*** DONE https://atcoder.jp/contests/abc138/tasks/abc138_d
+    CLOSED: [2020-07-02 Thu 09:08]
 
 - NG <2020-04-15 Wed>
 
@@ -75,6 +78,8 @@
 - NG <2020-04-15 Wed>
 
 - NG <2020-06-23 Tue>
+
+- NG <2020-07-03 Fri>
 
 ** TODO 幅優先探索
 *** TODO https://atcoder.jp/contests/joi2011yo/tasks/joi2011yo_e
