@@ -50,6 +50,7 @@
   - 解法が思いつかない
   - 二分探索をバグらせた
 - NG: <2020-06-26 Fri>
+- NG: <2020-07-09 Thu>
 
 *** DONE https://atcoder.jp/contests/arc054/tasks/arc054_b
     CLOSED: [2020-04-12 Sun 19:03]
@@ -81,7 +82,8 @@
 
 - NG <2020-07-03 Fri>
 
-** TODO 幅優先探索
+** DONE 幅優先探索
+   CLOSED: [2020-07-08 Wed 23:24]
 *** DONE https://atcoder.jp/contests/joi2011yo/tasks/joi2011yo_e
     CLOSED: [2020-07-08 Wed 01:04]
 
@@ -89,7 +91,8 @@
 
 - NG <2020-06-24 Wed>
 
-*** TODO https://atcoder.jp/contests/joi2012yo/tasks/joi2012yo_e
+*** DONE https://atcoder.jp/contests/joi2012yo/tasks/joi2012yo_e
+    CLOSED: [2020-07-08 Wed 23:24]
 
 - NG <2020-04-16 Thu>
 
