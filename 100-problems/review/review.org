@@ -55,7 +55,8 @@
 *** DONE https://atcoder.jp/contests/arc054/tasks/arc054_b
     CLOSED: [2020-04-12 Sun 19:03]
 
-*** TODO https://atcoder.jp/contests/joi2008ho/tasks/joi2008ho_c
+*** DONE https://atcoder.jp/contests/joi2008ho/tasks/joi2008ho_c
+    CLOSED: [2020-07-10 Fri 22:58]
 
 - NG <2020-04-13 Mon>
 
