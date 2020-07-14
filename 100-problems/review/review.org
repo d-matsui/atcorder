@@ -34,7 +34,8 @@
 
 - OK (but it takes 2 hours) <2020-04-11 Sat>
 
-** TODO 二分探索
+** DONE 二分探索
+   CLOSED: [2020-07-14 Tue 21:53]
 *** DONE https://atcoder.jp/contests/joi2009ho/tasks/joi2009ho_b
     CLOSED: [2020-04-12 Sun 15:06]
 
@@ -43,7 +44,8 @@
 
 - NG: <2020-04-12 Sun>
 
-*** TODO https://atcoder.jp/contests/abc023/tasks/abc023_d
+*** DONE https://atcoder.jp/contests/abc023/tasks/abc023_d
+    CLOSED: [2020-07-14 Tue 21:53]
 
 - NG: <2020-04-12 Sun>
 - NG: <2020-05-25 Mon>
