@@ -64,7 +64,8 @@
 
 - NG <2020-07-01 Wed>
 
-** TODO 深さ優先探索
+** DONE 深さ優先探索
+   CLOSED: [2020-07-15 Wed 23:54]
 *** DONE http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ALDS1_11_B
     CLOSED: [2020-05-19 Tue 22:51]
 
@@ -77,7 +78,8 @@
 
 - NG <2020-06-22 Mon>
 
-*** TODO https://atcoder.jp/contests/joi2009yo/tasks/joi2009yo_d
+*** DONE https://atcoder.jp/contests/joi2009yo/tasks/joi2009yo_d
+    CLOSED: [2020-07-15 Wed 23:54]
 
 - NG <2020-04-15 Wed>
 
