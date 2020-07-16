@@ -203,6 +203,8 @@
 ** TODO 累積和
 *** TODO https://atcoder.jp/contests/nikkei2019-final/tasks/nikkei2019_final_a
 
+- NG: <2020-07-16 Thu>
+
 *** TODO https://atcoder.jp/contests/joi2011ho/tasks/joi2011ho1
 
 *** TODO https://atcoder.jp/contests/abc106/tasks/abc106_d
