@@ -106,6 +106,25 @@
 *** DONE http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1166&lang=jp
     CLOSED: [2020-04-18 Sat 01:51]
 
+** TODO 累積和
+*** DONE https://atcoder.jp/contests/nikkei2019-final/tasks/nikkei2019_final_a
+    CLOSED: [2020-07-27 Mon 18:53]
+
+- NG: <2020-07-16 Thu>
+
+*** DONE https://atcoder.jp/contests/joi2011ho/tasks/joi2011ho1
+    CLOSED: [2020-07-27 Mon 20:07]
+
+- NG: <2020-07-20 Mon>
+
+*** TODO https://atcoder.jp/contests/abc106/tasks/abc106_d
+
+- NG: <2020-07-21 Tue>
+
+*** TODO https://atcoder.jp/contests/gigacode-2019/tasks/gigacode_2019_d
+
+- NG: <2020-07-24 Sun>
+
 ** TODO 動的計画法 (ナップザック DP)
 *** DONE http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=DPL_1_C&lang=ja
     CLOSED: [2020-06-19 Fri 08:44]
@@ -168,15 +187,10 @@
 
 - NG <2020-06-21 Sun>
 
-** TODO 動的計画法 (区間 DP)
-*** TODO http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ALDS1_10_B&lang=ja
+** TODO Disjoint Set
+*** TODO https://atcoder.jp/contests/abc075/tasks/abc075_c?lang=ja
 
-*** TODO https://atcoder.jp/contests/joi2015ho/tasks/joi2015ho_b
-
-*** TODO http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1611&lang=jp
-
-** TODO 動的計画法 (bit DP)
-*** TODO http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=DPL_2_A&lang=ja
+*** TODO https://atcoder.jp/contests/s8pc-1/tasks/s8pc_1_e
 
 ** TODO Dijkstra Algorithm
 *** TODO http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=GRL_1_A&lang=ja
@@ -200,27 +214,14 @@
 ** TODO 逆元を使う問題
 *** TODO https://atcoder.jp/contests/abc034/tasks/abc034_c
 
-** TODO 累積和
-*** TODO https://atcoder.jp/contests/nikkei2019-final/tasks/nikkei2019_final_a
-
-- NG: <2020-07-16 Thu>
-
-*** TODO https://atcoder.jp/contests/joi2011ho/tasks/joi2011ho1
-
-- NG: <2020-07-20 Mon>
-
-*** TODO https://atcoder.jp/contests/abc106/tasks/abc106_d
-
-- NG: <2020-07-21 Tue>
-
-*** TODO https://atcoder.jp/contests/gigacode-2019/tasks/gigacode_2019_d
-
-- NG: <2020-07-24 Sun>
-
-** TODO Disjoint Set
-*** TODO https://atcoder.jp/contests/abc075/tasks/abc075_c?lang=ja
-
-*** TODO https://atcoder.jp/contests/s8pc-1/tasks/s8pc_1_e
-
 ** TODO その他のテクニック
 *** TODO https://atcoder.jp/contests/joi2008ho/tasks/joi2008ho_a
+** TODO 動的計画法 (区間 DP)
+*** TODO http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ALDS1_10_B&lang=ja
+
+*** TODO https://atcoder.jp/contests/joi2015ho/tasks/joi2015ho_b
+
+*** TODO http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1611&lang=jp
+
+** TODO 動的計画法 (bit DP)
+*** TODO http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=DPL_2_A&lang=ja
