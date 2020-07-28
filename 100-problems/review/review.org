@@ -117,11 +117,13 @@
 
 - NG: <2020-07-20 Mon>
 
-*** TODO https://atcoder.jp/contests/abc106/tasks/abc106_d
+*** DONE https://atcoder.jp/contests/abc106/tasks/abc106_d
+    CLOSED: [2020-07-28 Tue 23:04]
 
 - NG: <2020-07-21 Tue>
 
-*** TODO https://atcoder.jp/contests/gigacode-2019/tasks/gigacode_2019_d
+*** DONE https://atcoder.jp/contests/gigacode-2019/tasks/gigacode_2019_d
+    CLOSED: [2020-07-28 Tue 23:04]
 
 - NG: <2020-07-24 Sun>
 
