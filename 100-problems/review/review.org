@@ -106,7 +106,8 @@
 *** DONE http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1166&lang=jp
     CLOSED: [2020-04-18 Sat 01:51]
 
-** TODO 累積和
+** DONE 累積和
+   CLOSED: [2020-07-29 Wed 20:47]
 *** DONE https://atcoder.jp/contests/nikkei2019-final/tasks/nikkei2019_final_a
     CLOSED: [2020-07-27 Mon 18:53]
 
@@ -192,7 +193,9 @@
 ** TODO Disjoint Set
 *** TODO https://atcoder.jp/contests/abc075/tasks/abc075_c?lang=ja
 
-*** TODO https://atcoder.jp/contests/s8pc-1/tasks/s8pc_1_e
+- NG: <2020-07-29 Wed>
+
+*** TODO https://atcoder.jp/contests/abc120/tasks/abc120_d
 
 ** TODO Dijkstra Algorithm
 *** TODO http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=GRL_1_A&lang=ja
