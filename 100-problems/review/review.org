@@ -197,6 +197,8 @@
 
 *** TODO https://atcoder.jp/contests/abc120/tasks/abc120_d
 
+- NG: <2020-07-30 Fri>
+
 ** TODO Dijkstra Algorithm
 *** TODO http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=GRL_1_A&lang=ja
 
