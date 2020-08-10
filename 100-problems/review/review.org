@@ -205,7 +205,11 @@
 ** TODO Dijkstra Algorithm
 *** TODO http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=GRL_1_A&lang=ja
 
+- NG: <2020-08-05 Wed>
+
 *** TODO https://atcoder.jp/contests/joi2008yo/tasks/joi2008yo_f
+
+- NG: <2020-08-10 Mon>
 
 ** TODO Floyd-Warshall Algorithm
 *** TODO https://atcoder.jp/contests/abc012/tasks/abc012_4
