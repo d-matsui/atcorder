@@ -221,6 +221,9 @@
 
 ** TODO Minimum Spanning Tree
 *** TODO https://atcoder.jp/contests/joisc2010/tasks/joisc2010_finals
+- 問題 PDF: https://www.ioi-jp.org/camp/2010/2010-sp-tasks/2010-sp-day3_22.pdf
+
+- NG: <2020-08-15 Sat>
 
 ** TODO Prime Number
 *** TODO http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=NTL_1_A&lang=ja
