@@ -219,7 +219,8 @@
 *** DONE https://atcoder.jp/contests/abc012/tasks/abc012_4
     CLOSED: [2020-08-11 Tue 19:29]
 
-** TODO Minimum Spanning Tree
+** DONE Minimum Spanning Tree
+   CLOSED: [2020-08-18 Tue 21:13]
 *** DONE https://atcoder.jp/contests/joisc2010/tasks/joisc2010_finals
     CLOSED: [2020-08-18 Tue 20:38]
 - 問題 PDF: https://www.ioi-jp.org/camp/2010/2010-sp-tasks/2010-sp-day3_22.pdf
