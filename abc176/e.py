@@ -1,24 +1,16 @@
 #!/usr/bin/env python3
 
 from pprint import pprint
-from collections import deque, defaultdict
-import itertools
-import math
 import sys
 
 sys.setrecursionlimit(10 ** 6)
-INF = float('inf')
 
 
 H, W, M = map(int, input().split())
 
-num_boms_row = [0] * H
-max_boms_row = [None, 0]
-
-num_boms_col = [0] * W
-max_boms_col = [None, 0]
-
-boms = set()
+num_bombs_each_row = [0] * H
+num_bombs_each_col = [0] * W
+bombs = set()
 
 for _ in range(M):
     h, w = map(int, input().split())
@@ -26,20 +18,32 @@ for _ in range(M):
     h -= 1
     w -= 1
 
-    boms.add((h, w))
-    num_boms_row[h] += 1
-    num_boms_col[w] += 1
+    bombs.add((h, w))
+    num_bombs_each_row[h] += 1
+    num_bombs_each_col[w] += 1
 
-    if max_boms_row[1] < num_boms_row[h]:
-        max_boms_row = [h, num_boms_row[h]]
+max_bombs_in_row = max(num_bombs_each_row)
+max_bombs_in_col = max(num_bombs_each_col)
 
-    if max_boms_col[1] < num_boms_col[w]:
-        max_boms_col = [w, num_boms_col[w]]
+rows_with_max_bombs = []
+for row in range(H):
+    if num_bombs_each_row[row] == max_bombs_in_row:
+        rows_with_max_bombs.append(row)
 
-# pprint(max_boms_row)
-# pprint(max_boms_col)
+cols_with_max_bombs = []
+for col in range(W):
+    if num_bombs_each_col[col] == max_bombs_in_col:
+        cols_with_max_bombs.append(col)
 
-ans = max_boms_row[1] + max_boms_col[1]
-if (max_boms_row[0], max_boms_col[0]) in boms:
-    ans -= 1
-print(ans)
+found = False
+for row in rows_with_max_bombs:
+    for col in cols_with_max_bombs:
+        if (row, col) not in bombs:
+            found = True
+            break
+
+ans = max_bombs_in_row + max_bombs_in_col
+if found:
+    print(ans)
+else:
+    print(ans - 1)
